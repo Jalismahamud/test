@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline — Smart POS</title>
+    <style>
+        body { font-family: sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f8fafc; }
+        .box { text-align: center; padding: 2rem; }
+        h1 { color: #1e293b; font-size: 1.5rem; }
+        p { color: #64748b; }
+        button { margin-top: 1rem; padding: 0.5rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 0.5rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div style="font-size:3rem">📡</div>
+        <h1>You are offline</h1>
+        <p>POS Terminal still works. Your sales will sync when connection returns.</p>
+        <button onclick="window.location.href='/pos'">Go to POS</button>
+    </div>
+</body>
+</html>
